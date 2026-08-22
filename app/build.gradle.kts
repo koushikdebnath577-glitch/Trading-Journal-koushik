@@ -73,8 +73,12 @@ dependencies {
   implementation(libs.androidx.room.ktx)
   implementation(libs.androidx.room.runtime)
   implementation(libs.converter.moshi)
-  implementation(libs.firebase.ai)
-  implementation(libs.firebase.appcheck.recaptcha)
+  
+  // Firebase dependencies (BoM managed)
+  implementation("com.google.firebase:firebase-analytics")
+  implementation("com.google.firebase:firebase-firestore")
+  implementation("com.google.firebase:firebase-auth")
+
   implementation(libs.kotlinx.coroutines.android)
   implementation(libs.kotlinx.coroutines.core)
   implementation(libs.logging.interceptor)
