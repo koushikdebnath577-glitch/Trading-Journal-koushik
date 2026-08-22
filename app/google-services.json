@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566472780575",
+    "project_id": "trading-journal-24ed5",
+    "storage_bucket": "trading-journal-24ed5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566472780575:android:49a18a758073fec3729e2a",
+        "android_client_info": {
+          "package_name": "com.aistudio.tradingjournal.vxtr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5F0ItMYWshbfij0Ip4G8DFAj2Zg9Za9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
