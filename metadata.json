@@ -1,0 +1,6 @@
+{
+  "name": "Trading Journal",
+  "description": "Professional intraday trading journal with metrics, equity curve charts, setup analysis, mistake tracking, and risk management for stock traders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
