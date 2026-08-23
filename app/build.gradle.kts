@@ -10,12 +10,11 @@ plugins {
 }
 
 android {
-  // google-services.json এর সাথে মিলিয়ে ঠিক করা হয়েছে
-  namespace = "com.aistudio.tradingjournal.vxtr"
+  namespace = "com.example"
   compileSdk = 34
 
   defaultConfig {
-    applicationId = "com.aistudio.tradingjournal.vxtr"
+    applicationId = "com.example"
     minSdk = 24
     targetSdk = 34
     versionCode = 1
