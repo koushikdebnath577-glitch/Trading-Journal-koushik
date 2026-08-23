@@ -10,12 +10,12 @@ plugins {
 }
 
 android {
-  // প্যাকেজ পাথ com.example এর সাথে মেলানোর জন্য এখানে পরিবর্তন করা হয়েছে
-  namespace = "com.example"
+  // google-services.json এর সাথে মিলিয়ে ঠিক করা হয়েছে
+  namespace = "com.aistudio.tradingjournal.vxtr"
   compileSdk = 34
 
   defaultConfig {
-    applicationId = "com.example"
+    applicationId = "com.aistudio.tradingjournal.vxtr"
     minSdk = 24
     targetSdk = 34
     versionCode = 1
