@@ -1,4 +1,4 @@
-package com.example.tradingjournal
+package com.example
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -35,7 +35,10 @@ class MainActivity : ComponentActivity() {
                         .verticalScroll(rememberScrollState())
                 )
             } else {
-                // Your normal app screen UI here
+                Text(
+                    text = "Trading Journal App Running Successfully!",
+                    modifier = Modifier.padding(16.dp)
+                )
             }
         }
     }
