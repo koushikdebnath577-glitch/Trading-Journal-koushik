@@ -10,11 +10,12 @@ plugins {
 }
 
 android {
-  namespace = "com.aistudio.tradingjournal.vxtr"
+  // প্যাকেজ পাথ com.example এর সাথে মেলানোর জন্য এখানে পরিবর্তন করা হয়েছে
+  namespace = "com.example"
   compileSdk = 34
 
   defaultConfig {
-    applicationId = "com.aistudio.tradingjournal.vxtr"
+    applicationId = "com.example"
     minSdk = 24
     targetSdk = 34
     versionCode = 1
@@ -74,7 +75,7 @@ dependencies {
   implementation(libs.androidx.room.runtime)
   implementation(libs.converter.moshi)
 
-  // Firebase dependencies (BoM managed)
+  // Firebase dependencies
   implementation("com.google.firebase:firebase-analytics")
   implementation("com.google.firebase:firebase-firestore")
   implementation("com.google.firebase:firebase-auth")
